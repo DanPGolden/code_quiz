@@ -44,7 +44,7 @@ var questions = [
   var timer = document.querySelector("#startTime");
   var questionsDiv = document.querySelector("#questionsDiv");
   var wrapper = document.querySelector("#wrapper");
-  var highScores = document.getElementById("highscore");
+  var highScores = document.getElementById("highScore");
   
   //The Timer
   var secondsLeft = 60;
