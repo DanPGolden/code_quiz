@@ -54,11 +54,8 @@ var questions = [
 
   //Removing highscore after clicking Start
   timer.addEventListener("click", function () {
-    if(highScores.style.display === "none"){
-      highScores.style.display = "inline";
-    } else {
-      highScores.style.display = "none";
-    }
+    highscore.style.visibility = "hidden";
+    
     if (holdInterval === 0) {
       holdInterval = setInterval(function () {
         secondsLeft--;
